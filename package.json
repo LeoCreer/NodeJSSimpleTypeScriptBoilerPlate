@@ -1,0 +1,33 @@
+{
+  "name": "node.js-simple-typescript-boiler-plate",
+  "version": "1.0.0",
+  "description": "Jump into type script with node skip the develper fatigue",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently --kill-others \"tsc -w\" \"nodemon dist/index.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LeoCreer/NodeJSSimpleTypeScriptBoilerPlate"
+  },
+  "keywords": [
+    "boiler",
+    "plate",
+    "type",
+    "script",
+    "node.js",
+    "quick",
+    "start"
+  ],
+  "author": "Leo Creer",
+  "license": "MIT",
+  "homepage": "https://github.com/LeoCreer/NodeJSSimpleTypeScriptBoilerPlate",
+  "devDependencies": {
+    "@types/node": "^10.5.1",
+    "concurrently": "3.6.0",
+    "nodemon": "1.17.5",
+    "typescript": "2.9.2"
+  },
+  "dependencies": {}
+}
